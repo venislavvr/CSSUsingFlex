@@ -1,0 +1,163 @@
+body, div, h3, p, img, ul, li{
+	margin: 0;
+	padding: 0;	
+	font-family: verdana;
+}
+
+#wrapper{
+	position: absolute;
+	width: 95%;
+	background-color: red;
+}
+
+#header{
+	position: absolute;
+	top: 0;
+	left: 5%;
+	width: 90%;
+	height: 20%;
+	background-image: url("../images/backgroundpic.jpg");
+	background-repeat: repeat;
+}
+
+#nav{
+	position: absolute;
+	top: 60%;
+	width: 75%;
+	height: 40%;
+	left: 5%;
+	background-color: #22A3E6;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: 2.5%;
+	margin-left: 5%;
+}
+
+li {
+	display: inline;
+	width: 60px;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	font-family: verdana;
+	color: #FFF;
+	padding-left: 5px;
+}
+
+#main{
+	position: absolute;
+	top: 25%;
+	width: 90%;
+	height: 50%;
+	left: 5%;
+}
+
+.ccontent{
+	position: absolute;
+	display: block;
+	width: 22%;
+}
+
+#ccontents1
+{
+	position: absolute;
+	left:5%;
+	text-align: left;
+}
+
+#ccontents2
+{
+	position: absolute;
+	left:29%;
+	text-align: justify;
+}
+
+#ccontents3
+{
+	position: absolute;
+	left:53%;
+	text-align: justify;
+}
+
+#ccontents4
+{
+	position: absolute;
+	left:78%;
+	text-align: justify;
+}
+
+#footcontent{
+	position: absolute;
+	top: 72%;
+	width: 90%;
+	height: 30%;
+	right: 5%;
+	background-color: #E9E7E7;
+}
+
+.h3_ccontent{
+	margin-bottom: 7%;
+	font-variant-caps: all-petite-caps;
+}
+
+.footercontents1{
+	position: absolute;
+	width: 25%;
+	left:5%;
+	text-align: center;
+}
+
+.footercontents2{
+	position: absolute;
+	width: 25%;
+	left:35%;
+	text-align: center;
+}
+
+.footercontents3{
+	position: absolute;
+	width: 25%;
+	left:75%;
+	text-align: center;
+}
+
+.h3_footcontent{
+	font-variant-caps: all-petite-caps;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+.footerbutton{
+	background-color: #22A3E6;
+	border-radius: 3px;
+	width: 50%;
+	margin-top: 10%;
+	margin-left: 20%;
+	padding: 2%;
+}
+
+.footerbutton a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#footer{
+	position: absolute;
+	left: 5%;
+	bottom: 0%;
+	top: 102%;
+	width: 90%;
+	height: 10%;
+	background-color: #992828;
+	text-align: center;
+}
+
+#footer p{
+	margin-top: 3%;
+}
+
+
